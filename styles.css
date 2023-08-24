@@ -24,6 +24,7 @@ body{
     max-width: 500px;
     text-align: center;
     padding: 20px;
+    margin-top: 20px;
 }
 
 .input-container input{
@@ -57,23 +58,63 @@ body{
     background-color: #60b160;
 }
 
-ul{
+  ul{
 
     width: 100%;
     max-width: 450px;
-    display: flex;
+    /* display: flex;
     justify-content: center;
     flex-direction: column;
-    align-items: center;
-}
+    align-items: center; */
+}  
 
 ul li{
 
-    list-style-type: none;
+    list-style-type:none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     cursor: pointer;
     margin-block-end: 12px;
     border-radius: 8px;
     border: 0.125px solid #a19f9f;
     padding: 6px 12px;
     background-color: #ffffff;
+    transition: back 0.5s;
+   
+}  
+
+ul li:hover{
+
+    background-color: #cbcaca;
 }
+
+  ul li p{
+
+    flex-grow:1;
+    padding: 2px;
+
+}  
+
+  .btn{
+
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background-color: none;
+    font-weight: 600;
+    cursor: pointer;
+    background: none;
+    padding: 8px;
+
+}  
+
+ .deleteBtn{
+
+    color: #ff0000;
+}
+
+.editBtn{
+
+    color: #008000;
+} 
