@@ -32,7 +32,7 @@ body{
     border: none;
     outline: none;
     padding: 12px;
-    margin-block: 12px;
+    margin-block: 12px; 
     border-radius: 4px;
     font-size: 16px;
 
@@ -73,14 +73,14 @@ ul li{
     list-style-type:none;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; 
     cursor: pointer;
-    margin-block-end: 12px;
+     margin-block-end: 12px;  
     border-radius: 8px;
     border: 0.125px solid #a19f9f;
     padding: 6px 12px;
     background-color: #ffffff;
-    transition: back 0.5s;
+    transition: background-color 0.5s;
    
 }  
 
